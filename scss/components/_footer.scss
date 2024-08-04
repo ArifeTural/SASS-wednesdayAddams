@@ -50,4 +50,18 @@ footer.vertical{
 }
 
 
+footer.middle{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: small;
+    @extend .link-style,
+ 
+}
+
+
 
